@@ -1,0 +1,5 @@
+invalidcommand: "Invalid arguments"
+successoverride: "Successfully cleaned and emptied %count% shulker boxes in your inventory"
+successall: "Successfully cleaned %count% shulker boxes in your inventory"
+failclean: "Could not clean the item in your hand"
+successclean: "Successfully cleaned the shulker box in your hand"

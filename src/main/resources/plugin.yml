@@ -1,0 +1,23 @@
+name: ShulkerCleaner
+version: ${project.version}
+main: me.darkolythe.shulkercleaner.ShulkerCleaner
+api-version: 1.13
+
+commands:
+  shulkercleaner:
+    usage: /<command>
+    aliases: [sclean]
+    description: the base shulker cleaner command
+    permission: shulkercleaner.command
+    permission-message: You do not have permission!
+
+permissions:
+  shulkercleaner.clean:
+    description: default shulker cleaner command permission
+    default: op
+  shulkercleaner.cleanall:
+    description: allows the user to clean all empty shulkers in their inventory
+    default: op
+  shulkercleaner.override:
+    description: allows the user to clean all shulker boxes, empty or not
+    default: op
